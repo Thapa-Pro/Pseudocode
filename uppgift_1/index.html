@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Split the nota</title>
 </head>
+
 <body>
     <script src="script.js"></script>
-    
+
     <h1>Dela Notan</h1>
 
-    <!-- Inmatningsfält för användaren -->
-    <label for="primärBelopp">Primär Belopp (Totalt Belopp):</label>
-    <input type="number" id="primärBelopp" placeholder="Ange belopp" required><br><br>
+    <!-- Input fields for the user -->
+    <label for="PrimärBelopp">Primär Belopp:</label>
+    <input type="number" id="PrimärBelopp" placeholder="Ange belopp" required><br><br>
 
-    <label for="dricksProcent">Dricks Procent (Tipprocent):</label>
-    <input type="number" id="dricksProcent" step="0.01" placeholder="Ange dricksprocent" required><br><br>
+    <label for="DricksProcent">Dricks Procent:</label>
+    <input type="number" id="DricksProcent" step="0.01" placeholder="Ange dricks procent" required><br><br>
 
-    <label for="antalVänner">Antal Vänner (Antal Vänner):</label>
-    <input type="number" id="antalVänner" placeholder="Ange antal vänner" required><br><br>
+    <label for="AntalVänner">Antal Vänner:</label>
+    <input type="number" id="AntalVänner" placeholder="Ange antal vänner" required><br><br>
 
     <button onclick="delaNotan()">Beräkna</button>
 
-    <!-- Felmeddelande och resultat -->
+    <!-- Error message and result -->
     <p id="felMeddelande" style="color: red;"></p>
     <p id="totalBelopp"></p>
     <p id="beloppPerVän"></p>
-    
-    
+
 </body>
+
 </html>
