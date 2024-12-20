@@ -1,10 +1,6 @@
 # Pseudocode
 ![Split the nota](ScreenShot_SplitNota.png)
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<br><br><br><br><br><br><br>
 ![Lewis Carrol Word Puzzle](ScreenShot_WordPuzzle.png)
 
 
