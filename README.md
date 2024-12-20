@@ -1,3 +1,3 @@
 # Pseudocode
 ![Flowchart Screenshot](ScreenShot_SplitNota.png)
-![Flowchart Word Puzzle](uppgift-2-Word Puzzle.png)
+![Description of the image](images/uppgift-2-Word Puzzle.png)
